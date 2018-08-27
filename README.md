@@ -11,3 +11,6 @@ Install http-server package from npm on CLI
 
 CD to project and run http-server command
     "http-server"
+    
+    
+Navigate to localhost:8080 to play battlehsip!
