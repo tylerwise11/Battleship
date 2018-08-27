@@ -1,0 +1,107 @@
+
+.container {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container > div {
+  display: table-cell;
+}
+
+.playerTwoDiv {
+  float: right;
+}
+
+h3 {
+  color: white;
+}
+
+.name {
+  color: yellow;
+  font-size: 20px;
+}
+
+.name2 {
+  float: right;
+  color: yellow;
+  font-size: 20px;
+}
+
+.btn {
+  color: #0099CC;
+  background: transparent;
+  border: 2px solid #0099CC;
+  border-radius: 6px; 
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.square {
+  height: 3vw;
+  width: 3vw;
+  background-color: grey;
+  border: 0.1vw solid white;
+  float: left;
+}
+
+.first {
+  clear: left;
+}
+
+
+.white {
+  background-color: blue;
+}
+
+.player-ship {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.messageDiv {
+  color: white;
+  font-size: 20px;
+}
+
+.messageSpan {
+  vertical-align: -webkit-baseline-middle;
+  color: white;
+  font-size: 40px;
+}
+
+.legendDiv {
+  text-align: center;
+  vertical-align: -webkit-baseline-middle;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+.shipHit {
+  color: red;
+  margin-right: 10px;
+}
+
+.shipMiss {
+  color: blue
+}
+
+.board {
+  display: inline-block;
+  clear: both;
+  margin-top: 5vw;
+}
+
+
+
+
+

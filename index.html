@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Battleship!</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+  <div class="legendDiv">
+      <div id=legend>
+          <h3>Take turns searching for one anothers ships!</h3>
+          <span class="shipHit">Ship Hit - Red</span>
+          <span class="shipMiss">Ship Missed - Blue</span>
+        </div>
+    <input class="btn" id='newGame' type="button" value="New Game">
+    
+  </div>
+
+  <div>
+    <span class="name">Player One's Board</span>
+    <span class="name2">Player Two's Board</span>
+  </div>
+
+  <div class="container">
+
+    <div class="playerOneDiv">
+      <div class="board" id='playerOneBoard'>
+      </div>
+    </div>
+    <div class="messageDiv" >
+      <div style="vertical-align: middle;">
+        <div class="messageSpan" id=message></div>
+      </div>
+    </div>
+    <div class="playerTwoDiv">
+      <div class="board" id='playerTwoBoard'></div>
+    </div>
+
+  </div>
+    <script type="module" src="./src/board.js"></script>
+    <script type="module" src="./src/DOM.js"></script>
+    <script type="module" src="./src/ship.js"></script>
+  </body>
+</html>
